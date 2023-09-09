@@ -1,0 +1,61 @@
+/*- possible slider start -*/
+#app-mount .link-1_kTxV::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--gradientColor01);
+    background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02)) !important;
+    -webkit-transition: transform .2s ease;
+    -ms-transition: transform .2s ease;
+    -o-transition: transform .2s ease;
+    -moz-transition: transform .2s ease;
+    transition: transform .2s ease;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%)
+}
+
+
+/*- possible slider end -*/
+#app-mount .layout-1qmrhw::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--gradientColor01);
+    background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02)) !important;
+    -webkit-transition: transform .2s ease;
+    -ms-transition: transform .2s ease;
+    -o-transition: transform .2s ease;
+    -moz-transition: transform .2s ease;
+    transition: transform .2s ease;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%)
+}
+
+
+/*- upper button gradient'd-*/
+#app-mount .tutorialContainer-1pL9QS .childWrapper-1j_1ub::after {
+    position: absolute;
+    content: "";
+    width: 36px;
+    height: 36px;
+    top: 6px;
+    left: 6px;
+    background-image: linear-gradient(-45deg, var(--gradientColor01), var(--gradientColor02));
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    -webkit-mask-box-image: url("https://i.imgur.com/6gPQfIO.png");
+    mask-image: url("https://i.imgur.com/6gPQfIO.png")
+}
